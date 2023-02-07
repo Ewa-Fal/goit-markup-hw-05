@@ -76,7 +76,7 @@ body {
     border-radius: 2px;
     position: absolute;
     display: block;
-    top: 78px;
+    top: 76px;
 }
 .portfolio-active-line::after {
     content: "";
@@ -87,7 +87,7 @@ body {
     border-radius: 2px;
     position: absolute;
     display: block;
-    top: 78px;
+    top: 76px;
 }
 .agencja-active-line:focus,.agencja-active-line:hover,
 .portfolio-active-line:focus, .portfolio-active-line:hover {
@@ -168,25 +168,21 @@ body {
 .lorem {
     font-size: 14px;
     list-style: none;
+    padding-top: 94px;
+    padding-bottom: 94px;
     display: flex;
     gap: 30px;
     justify-content: space-between;    
 }
-.icons-item {
-  margin-top: 94px;
-  padding-bottom: 94px;
-}
 .title-l {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
+   font-weight: 700;
+   line-height: 1.14;
+   letter-spacing: 0.03em;
     margin-bottom: 10px;
     padding-top: 30px;
 }
 p {
     font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--color-gray2);
@@ -199,7 +195,7 @@ p {
     height: 120px;
     background: #F5F4FA;
     border-radius: 4px;
-}
+ }
 .images {
   padding-top: 94px;
   margin-bottom: 94px;
@@ -276,7 +272,7 @@ p {
 .team-icon-svg {
     display: flex;
     justify-content: space-between;
-    fill: var(--color-gray2);
+    fill: var(--color-fill);
     margin: 0 auto;
     align-items: center;
     padding-left: 32px;
@@ -363,7 +359,7 @@ p {
     font-size: 16px;   
     letter-spacing: 0.03em;    
     color: var(--color-gray2);
-    margin-bottom: 20px;    
+       
 }
 .card:hover, .card:focus {
   background: #FFFFFF;
@@ -397,6 +393,7 @@ p {
   padding-left: 24px;
   padding-right: 45px;
   font-weight: 400;
+  font-style: normal;
   font-size: 18px;
   line-height: 1.55;
   letter-spacing: 0.03em;
@@ -455,8 +452,11 @@ p {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    display: flex;
+    display: flex;font-style: normal;
     }
+.adress {
+    font-style: normal;
+}
 .footer-logo {
     font-family: 'Raleway';
     font-weight: 700;
