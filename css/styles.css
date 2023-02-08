@@ -89,10 +89,9 @@ body {
     display: block;
     top: 76px;
 }
-.agencja-active-line:focus,.agencja-active-line:hover,
-.portfolio-active-line:focus, .portfolio-active-line:hover {
+.agencja-active-line,
+.portfolio-active-line {
   color: var(--color-blue);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
 }
 .header-link {
     display: flex;
@@ -300,7 +299,7 @@ p {
 .cursor {
     list-style: none;
     display: flex;
-    gap: 30px; 
+    gap: 8px; 
     align-items: center;
     justify-content: center;
 }
@@ -615,6 +614,7 @@ p {
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     cursor: pointer;
+    padding-top: 3px;
   }
   .close-btn:focus,
   .close-btn:hover {
